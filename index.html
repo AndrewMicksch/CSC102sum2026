@@ -1,31 +1,55 @@
+<!-- Andrew Micksch -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSC102</title>
     <script>
         // creation of the variable
         var playerName;
         // assigns the variable a value
         playerName = "Andrew Micksch"
-        // alert("how's this?");
-        document.write("<h1>Welcome in </h1>");
-        document.write("<p>This is Just something, I guess.</p>");
+
+        // This will put a header into the html 
+        document.write("<h1>Welcome in</h1>");
+
+        // Like above but with a paragraph, both could be put in the body section of the HTML instead
+
+        document.write("<p>This is the start of the page.</p>");
         
         /*
             Multi line comment
             multiple uses.
         */
-        
+
+        // Creates a constantant Variable that won't change.
         const radarScanRadius = 277.3;
         const pi = 3.1415926359;
+
+        // Gives a popup when the page is opened. which will run the calculation and give the answer.
         alert (2 * pi * radarScanRadius);
         
+        // A varible to test calculations.
+        var theAnswer;
+        theAnswer = 1 + 1; 
+
+        // Will write the varible into the webpage for viewing.
+        document.write(theAnswer);
+        
+        var concatenationExample;
+
+        concatenationExample = "1" + "1";
+        document.write(concatenationExample);
     </script>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    
+    <p>Not a meme but I use this as a background for my pc.</p>
+    <p>
+        <!-- uses an id for css and the image can be changed by replacing src -->
+        <img id="RiceField" src="RiceField.jpg" width="300">
+    </p>
 </body>
 </html>
